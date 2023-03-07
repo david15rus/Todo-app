@@ -4,6 +4,7 @@ import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print("It is", now)
+
 while True:
     command = input("Enter command (help to show any command exist in this program) ").lower().strip()
 
@@ -53,7 +54,7 @@ while True:
             print("Дела с таким номером нет в списке.")
             continue
 
-    elif  command.startswith('help'):
+    elif command.startswith('help'):
         print("""
 1) add - добавить дело в список дел
 2) show - отображает список дел
