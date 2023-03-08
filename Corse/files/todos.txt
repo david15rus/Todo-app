@@ -1,4 +1,4 @@
 throw
 add a new member
 Complete
-tuen off the lights.
+turn off the lights.
